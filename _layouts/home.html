@@ -16,10 +16,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/jquery.classycountdown.min.css" />
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/jquery.classycountdown.min.js"></script>
-    <script src="js/jquery.knob.js"></script>
-    <script src="js/jquery.throttle.js"></script>
+
 
 </head>
 
@@ -64,7 +61,7 @@
                             <button class="btn btn-danger" type="button"><i class="fa fa-check"></i></button>
                         </span>
                     </div> -->
-                    <br> 
+                    <br>
                     <ul class="list-unstyled list-inline">
                         {% if site.owner.email %}<li>
                             <a href="mailto:{{ site.owner.email }}"><i class="fa fa-envelope"></i></a>
@@ -77,10 +74,10 @@
                         </li>{% endif %}
                         {% if site.owner.google_plus %}<li>
                             <a href="https://google.com/{{ site.owner.google_plus }}"><i class="fa fa-google-plus"></i></a>
-                        </li>{% endif %}    
+                        </li>{% endif %}
                         {% if site.owner.instagram %}<li>
                             <a href="http://instagram.com/{{ site.owner.instagram }}"><i class="fa fa-instagram"></i></a>
-                        </li>{% endif %}                
+                        </li>{% endif %}
                     </ul>
                 </div>
             </div>
@@ -95,7 +92,7 @@
                     <p>2015 - {{ site.owner.name }}</p>
 
                     <P> {% if site.owner.aboutlink.url %}<a href="{{ site.owner.aboutlink.url }}">{{ site.owner.aboutlink.caption | default: "About" }}</a> | {% endif %}
-                        Page and Design by <a target="_blank" href="http://mortezaaghili.github.io/">M. Aghili</a> + 
+                        Page and Design by <a target="_blank" href="http://mortezaaghili.github.io/">M. Aghili</a> +
                         <a target="_blank" href="https://www.behance.net/gallery/18421675/Free-Bootstrap-Psd-Coming-Soon-Template">Ilya B.</a>
                     </P>
                 </div>
@@ -103,7 +100,10 @@
         </div>
     </section>
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/jquery.classycountdown.min.js"></script>
+    <script src="js/jquery.knob.js"></script>
+    <script src="js/jquery.throttle.js"></script>
 
     <script>
         $('.countdown').ClassyCountdown({
