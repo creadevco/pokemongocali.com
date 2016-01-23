@@ -48,6 +48,8 @@ locales:
     Minutes: "Minutos"
     Seconds: "Segundos"
     Learn_More: "Leer más"
+  es_ES:
+    <<: *DEFAULT_ES
 
   # Other translations (TODO)
   # -------------------
