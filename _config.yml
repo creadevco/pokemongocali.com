@@ -1,11 +1,13 @@
 # Site wide configuration
 
-title: "Your Awesome Site"
-description: "A Coming Soon Template"
+title: "Creative Development"
+description: "Coming Soon to Cali"
 #if you modify locale please have a look at _data/messages.yml too
 locale: es
+language: "es"
 #for meta name="author" :
 author: Juan Roa / Jessica Giraldo
+keywords: creative development, web design
 
 #Target date in UTC / GMT
 countdown:
