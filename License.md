@@ -1,7 +1,7 @@
-The modifications of this repository (YAX-Coming-soon-Jekyll-Template) are 
+The modifications of this repository (YAX-Coming-soon-Jekyll-Template) are
 licensed under MIT License (MIT).
 
-Copyright (c) 2015 by yonojoy (https://github.com/yonojoy)
+Copyright (c) 2015 by Juan Roa (https://github.com/roadev)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
