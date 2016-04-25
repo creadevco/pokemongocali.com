@@ -21,13 +21,13 @@ countdown:
 # Site owner
 owner:
   name: CreaDev
-  email: contact@juanroa.me
-  twitter: jroadev
+  email: info@creadev.co
+  twitter: creadev_co
   google-plus:
   instagramm:
   #Aboutlink = German "Impressum", provide url and caption (eg "Impressum")
   aboutlink:
-    url: http://creadev.co
+    url: http://alimentosorganicos.co
     caption:
 
 
