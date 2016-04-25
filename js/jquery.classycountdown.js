@@ -281,7 +281,7 @@
                         textResponsive:.5,
                         days: {
                             gauge: {
-                                thickness: .05, bgColor: "#2ECCFA", fgColor: "#2ECCFA"
+                                thickness: .05, bgColor: "#ffa366", fgColor: "#ffa366"
                             }
                             ,
                             textCSS:"font-family:'Open Sans';font-weight:300;color:#34495e;"

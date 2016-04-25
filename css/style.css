@@ -26,7 +26,7 @@ body {
 
 section {
     position: relative;
-    background: #2980b9;
+    background: #ff6600;
     color: #000;
     text-align: center;
 }
@@ -71,7 +71,7 @@ header p {
 }
 
 .color {
-    background-color: #2ECCFA
+    background-color: #ffa366
 }
 
 .ss-style-doublediagonal {
@@ -179,7 +179,7 @@ section.footer p a {
     z-index: 1;
     margin-top: 10%;
     padding-top: 5px;
-    background: #2ECCFA;
+    background: #ffa366;
     color: white;
     padding-bottom: 10px;
 }
@@ -191,7 +191,7 @@ section.footer p a {
     z-index: -1;
     width: 125%;
     height: 105%;
-    background: #2ECCFA;
+    background: #ffa366;
     -webkit-transform: rotate(-2deg);
     -ms-transform: rotate(-2deg);
     transform: rotate(-2deg);
