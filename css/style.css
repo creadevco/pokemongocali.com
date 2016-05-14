@@ -41,7 +41,7 @@ section::after {
 }
 
 header section {
-  min-height: 250px;
+  /*min-height: 250px;*/
 }
 
 header h1 {
