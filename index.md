@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /
-title: "Alimentos Orgánicos"
-excerpt: "Semillas orgánicas"
+title: ""
+excerpt: ""
 ---
 # ¡Pronto sabrás de nosotros!

@@ -1,7 +1,7 @@
 # Site wide configuration
 
-title: "Alimentos Orgánicos"
-description: "Semillas de vida"
+title: ""
+description: ""
 #if you modify locale please have a look at _data/messages.yml too
 locale: es
 language: "es"
@@ -13,8 +13,8 @@ keywords: creative development, web design
 countdown:
   theme: red
   year: 2016
-  month: 5
-  day: 10
+  month: 6
+  day: 15
   hour: 0
   minute: 0
 
@@ -24,7 +24,8 @@ owner:
   email: info@creadev.co
   twitter: creadev_co
   google-plus:
-  instagramm:
+  instagram: creadev.co
+  facebook: creadev.co
   #Aboutlink = German "Impressum", provide url and caption (eg "Impressum")
   aboutlink:
     url: http://alimentosorganicos.co

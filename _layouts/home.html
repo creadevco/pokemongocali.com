@@ -26,7 +26,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
-                        <h1><i class="fa fa-clock-o" style="color:white"></i></h1>
+                        <h1><img src="images/semillas.png" class="logo" /></h1>
                         <h2>{{ page.title | default: site.title }}</h2>
                         <p>{{ page.excerpt | default: site.description }}
                         </p>
@@ -53,7 +53,8 @@
 
             <div class="row">
                 <div class="col-sm-12">
-                    <h3>{{ site.data.messages.locales[site.locale].Learn_More }}</h3>
+                    <h3><i class="fa fa-phone" aria-hidden="true"></i> 3151231212</h3>
+
                     <!-- not supported in Jekyll:
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Email">
@@ -64,19 +65,19 @@
                     <br>
                     <ul class="list-unstyled list-inline">
                         {% if site.owner.email %}<li>
-                            <a href="mailto:{{ site.owner.email }}"><i class="fa fa-envelope"></i></a>
+                            <a href="mailto:{{ site.owner.email }}" t><i class="fa fa-envelope"></i></a>
                         </li>{% endif %}
                         {% if site.owner.facebook %}<li>
-                            <a href="http://facebook.com/{{ site.owner.facebook }}"><i class="fa fa-facebook"></i></a>
+                            <a href="http://facebook.com/{{ site.owner.facebook }}" target="_blank"><i class="fa fa-facebook"></i></a>
                         </li>{% endif %}
                         {% if site.owner.twitter %}<li>
-                            <a href="http://twitter.com/{{ site.owner.twitter }}"><i class="fa fa-twitter"></i></a>
+                            <a href="http://twitter.com/{{ site.owner.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a>
                         </li>{% endif %}
                         {% if site.owner.google_plus %}<li>
-                            <a href="https://google.com/{{ site.owner.google_plus }}"><i class="fa fa-google-plus"></i></a>
+                            <a href="https://google.com/{{ site.owner.google_plus }}" target="_blank"><i class="fa fa-google-plus"></i></a>
                         </li>{% endif %}
                         {% if site.owner.instagram %}<li>
-                            <a href="http://instagram.com/{{ site.owner.instagram }}"><i class="fa fa-instagram"></i></a>
+                            <a href="http://instagram.com/{{ site.owner.instagram }}" target="_blank"><i class="fa fa-instagram"></i></a>
                         </li>{% endif %}
                     </ul>
                 </div>
@@ -89,7 +90,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-center">
-                    <p>2015 - {{ site.owner.name }}</p>
+                    <p>2016 - {{ site.owner.name }}</p>
 
                     <P> {% if site.owner.aboutlink.url %}<a href="{{ site.owner.aboutlink.url }}">{{ site.owner.aboutlink.caption | default: "About" }}</a> | {% endif %}
                         Page and Design by <a target="_blank" href="http://mortezaaghili.github.io/">M. Aghili</a> +
