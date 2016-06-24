@@ -1,7 +1,7 @@
 # Site wide configuration
 
 title: ""
-description: ""
+description: "asdad"
 #if you modify locale please have a look at _data/messages.yml too
 locale: es
 language: "es"
@@ -13,8 +13,8 @@ keywords: creative development, web design
 countdown:
   theme: red
   year: 2016
-  month: 6
-  day: 15
+  month: 8
+  day: 1
   hour: 0
   minute: 0
 
