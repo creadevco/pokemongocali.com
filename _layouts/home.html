@@ -23,10 +23,11 @@
 <body>
   <header>
     <section class="color">
+    <div class="row" id="stars"></div>
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
-            <h1><img src="images/semillas.png" class="logo" /></h1>
+            <h1><img src="images/pokemongocali_1_1200.png" class="logo" /></h1>
             <h2>{{ page.title | default: site.title }}</h2>
             <p>{{ page.excerpt | default: site.description }}
             </p>
@@ -35,33 +36,21 @@
       </div>
     </section>
   </header>
-  <section class="ss-style-doublediagonal main-content">
+  <br/><br/>
+  <section class="ss-style-doublediagonal main-content" >
+    <div class="row" id="stars"></div>
     <div class="container">
-      <div class="row">
-        <div class="col-sm-12 text-center">
-          {{ content }}
-        </div>
-      </div>
-
+      <div class="stars2"></div>
       <div class="row">
         <div class="col-sm-12">
-
           <div class="countdown"></div>
-
         </div>
       </div>
 
       <div class="row">
         <div class="col-sm-12">
-          <h3><i class="fa fa-phone" aria-hidden="true"></i> 3117761594</h3>
+          <!-- <h3><i class="fa fa-phone" aria-hidden="true"></i> 3117761594</h3> -->
 
-          <!-- not supported in Jekyll:
-          <div class="input-group">
-          <input type="text" class="form-control" placeholder="Email">
-          <span class="input-group-btn">
-          <button class="btn btn-danger" type="button"><i class="fa fa-check"></i></button>
-        </span>
-      </div> -->
       <br>
       <ul class="list-unstyled list-inline">
         {% if site.owner.email %}<li>
@@ -86,20 +75,17 @@
 </section>
 
 
-<section class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 text-center">
-        <p>2016 - {{ site.owner.name }}</p>
+<footer>
+<div id="stars3"></div>
+      <div class=" text-center">
+        <p>2016 - <a href="{{ site.owner.url }}" target="_blank">{{ site.owner.name }}</a></p>
 
-        <P> {% if site.owner.aboutlink.url %}<a href="{{ site.owner.aboutlink.url }}">{{ site.owner.aboutlink.caption | default: "About" }}</a> | {% endif %}
+        <p> {% if site.owner.aboutlink.url %}<a href="{{ site.owner.aboutlink.url }}">{{ site.owner.aboutlink.caption | default: "About" }}</a> | {% endif %}
           Page and Design by <a target="_blank" href="http://mortezaaghili.github.io/">M. Aghili</a> +
           <a target="_blank" href="https://www.behance.net/gallery/18421675/Free-Bootstrap-Psd-Coming-Soon-Template">Ilya B.</a>
-        </P>
+        </p>
       </div>
-    </div>
-  </div>
-</section>
+</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/jquery.classycountdown.min.js"></script>

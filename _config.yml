@@ -1,7 +1,7 @@
 # Site wide configuration
 
 title: ""
-description: "asdad"
+description: ""
 #if you modify locale please have a look at _data/messages.yml too
 locale: es
 language: "es"
@@ -11,24 +11,25 @@ keywords: creative development, web design
 
 #Target date in UTC / GMT
 countdown:
-  theme: red
+  theme: flat-colors
   year: 2016
-  month: 8
-  day: 1
-  hour: 0
+  month: 7
+  day: 31
+  hour: 4
   minute: 0
 
 # Site owner
 owner:
-  name: CreaDev
+  name: CreaDev.co
+  url: http://creadev.co
   email: info@creadev.co
   twitter: creadev_co
   google-plus:
   instagram: creadev.co
-  facebook: creadev.co
+  facebook: PokemonGoCaliOficial
   #Aboutlink = German "Impressum", provide url and caption (eg "Impressum")
   aboutlink:
-    url: http://alimentosorganicos.co
+    url: http://creadev.co
     caption:
 
 
