@@ -35,7 +35,7 @@ owner:
 
 # Jekyll configuration
 sass:
-  sass_dir: _sass
+  sass_dir: _scss
   style: compressed
 permalink: /:categories/:title/
 kramdown:
