@@ -14,7 +14,7 @@ countdown:
   theme: flat-colors
   year: 2016
   month: 8
-  day: 03
+  day: 05
   hour: 4
   minute: 0
 
@@ -35,7 +35,7 @@ owner:
 
 # Jekyll configuration
 sass:
-  sass_dir: _sass
+  sass_dir: _scss
   style: compressed
 permalink: /:categories/:title/
 kramdown:
