@@ -1,20 +1,20 @@
 # Site wide configuration
 
-title: ""
-description: ""
+title: "Pokémon Go Cali"
+description: "Sitio web de la comunidad Pokémon Go de la ciudad de Cali, Colombia"
 #if you modify locale please have a look at _data/messages.yml too
 locale: es
 language: "es"
 #for meta name="author" :
 author: CreaDev
-keywords: creative development, web design
+keywords: creative development, web design, creadev
 
 #Target date in UTC / GMT
 countdown:
   theme: flat-colors
   year: 2016
   month: 8
-  day: 05
+  day: 06
   hour: 4
   minute: 0
 
