@@ -7,34 +7,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>{{ page.title | default: site.title }}</title>
-  {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
+  <meta name="description" content="Sitio web de la comunidad Pokémon Go de la ciudad de Cali, Colombia">
   {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
   {% if site.author %}<meta name="author" content="{{ site.author }}" />{% endif %}
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 
   <link rel="stylesheet" type="text/css" href="css/main.css" />
 
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-81707603-1', 'auto');
-    ga('send', 'pageview');
+  ga('create', 'UA-81707603-1', 'auto');
+  ga('send', 'pageview');
   </script>
 
 </head>
 
 <body>
+  <div class="row" id="stars"></div>
   <header>
     <section class="color">
-    <div class="row" id="stars"></div>
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
             <h1><img src="images/pokemongocali_1_1200.png" class="logo" /></h1>
-            <h2>{{ page.title | default: site.title }}</h2>
-            <p>{{ page.excerpt | default: site.description }}
             </p>
           </div>
         </div>
@@ -49,58 +48,51 @@
           <div class="countdown"></div>
         </div>
       </div>
-
       <div class="row">
         <div class="col-sm-12">
           <!-- <h3><i class="fa fa-phone" aria-hidden="true"></i> 3117761594</h3> -->
-
-      <br>
-      <ul class="list-unstyled list-inline">
-        {% if site.owner.email %}<li>
-          <a href="mailto:{{ site.owner.email }}" t><i class="fa fa-envelope"></i></a>
-        </li>{% endif %}
-        {% if site.owner.facebook %}<li>
-          <a href="http://facebook.com/{{ site.owner.facebook }}" target="_blank"><i class="fa fa-facebook"></i></a>
-        </li>{% endif %}
-        {% if site.owner.twitter %}<li>
-          <a href="http://twitter.com/{{ site.owner.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a>
-        </li>{% endif %}
-        {% if site.owner.google_plus %}<li>
-          <a href="https://google.com/{{ site.owner.google_plus }}" target="_blank"><i class="fa fa-google-plus"></i></a>
-        </li>{% endif %}
-        {% if site.owner.instagram %}<li>
-          <a href="http://instagram.com/{{ site.owner.instagram }}" target="_blank"><i class="fa fa-instagram"></i></a>
-        </li>{% endif %}
-      </ul>
-    </div>
-  </div>
-</div>
-</section>
-
-
-<footer>
-      <div class=" text-center">
-        <p>2016 - <a href="{{ site.owner.url }}" target="_blank">{{ site.owner.name }}</a></p>
-
-        <p> {% if site.owner.aboutlink.url %}<a href="{{ site.owner.aboutlink.url }}">{{ site.owner.aboutlink.caption | default: "About" }}</a> | {% endif %}
-          Page and Design by <a target="_blank" href="http://mortezaaghili.github.io/">M. Aghili</a> +
-          <a target="_blank" href="https://www.behance.net/gallery/18421675/Free-Bootstrap-Psd-Coming-Soon-Template">Ilya B.</a>
-        </p>
+          <br>
+          <ul class="list-unstyled list-inline">
+            {% if site.owner.email %}<li>
+              <a href="mailto:{{ site.owner.email }}" t><i class="fa fa-envelope"></i></a>
+            </li>{% endif %}
+            {% if site.owner.facebook %}<li>
+              <a href="http://facebook.com/{{ site.owner.facebook }}" target="_blank"><i class="fa fa-facebook"></i></a>
+            </li>{% endif %}
+            {% if site.owner.twitter %}<li>
+              <a href="http://twitter.com/{{ site.owner.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a>
+            </li>{% endif %}
+            {% if site.owner.google_plus %}<li>
+              <a href="https://google.com/{{ site.owner.google_plus }}" target="_blank"><i class="fa fa-google-plus"></i></a>
+            </li>{% endif %}
+            {% if site.owner.instagram %}<li>
+              <a href="http://instagram.com/{{ site.owner.instagram }}" target="_blank"><i class="fa fa-instagram"></i></a>
+            </li>{% endif %}
+          </ul>
+        </div>
       </div>
-</footer>
+    </div>
+  </section>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="js/jquery.classycountdown.min.js"></script>
-<script src="js/jquery.knob.js"></script>
-<script src="js/jquery.throttle.js"></script>
 
-<script>
-$('.countdown').ClassyCountdown({
-  theme: "{{ site.countdown.theme }}",
-  now: $.now() / 1000,
-  end: Date.UTC({{ site.countdown.year }}, {{ site.countdown.month }} - 1, {{ site.countdown.day }}, {{ site.countdown.hour }}, {{ site.countdown.minute }}, 0) / 1000
-});
-</script>
+  <footer>
+    <div class=" text-center">
+      <p>2016 - <a href="{{ site.owner.url }}" target="_blank">{{ site.owner.name }}</a></p>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/jquery.classycountdown.min.js"></script>
+  <script src="js/jquery.knob.js"></script>
+  <script src="js/jquery.throttle.js"></script>
+
+  <script>
+    $('.countdown').ClassyCountdown({
+      theme: "{{ site.countdown.theme }}",
+      now: $.now() / 1000,
+      end: Date.UTC({{ site.countdown.year }}, {{ site.countdown.month }} - 1, {{ site.countdown.day }}, {{ site.countdown.hour }}, {{ site.countdown.minute }}, 0) / 1000
+    });
+  </script>
 </body>
 
 </html>
